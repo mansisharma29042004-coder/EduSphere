@@ -1,0 +1,44 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# PyCharm settings
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Database backup files
+*.sql.gz
+*.bak.sql
